@@ -5,8 +5,8 @@ my_dict['Den']=1999
 print(my_dict)
 my_dict['Sasha'] = 2004
 my_dict['Ivan'] = 2001
-del my_dict['Ivan']
-print(my_dict['Sasha'])
+a = my_dict.pop('Ivan')
+print(a)
 print(my_dict)
 
 my_set= {'Peach', 'Peach', 1, 1, 2, 2, True, True}
